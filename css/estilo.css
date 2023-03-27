@@ -57,8 +57,48 @@ header {
     display: block;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 header > img {
     max-width: 60%;
+}
+
+section {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+section > p {
+    text-indent: 30px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+section > h1 {
+    background-image: linear-gradient(to right, yellow, transparent);
+    font-family: 'Alkatra', cursive;
+    font-size: 2.7em;
+    color: red;
+    text-align: center;
+}
+
+section > h2 {
+    color: rgb(0, 0, 92);
+    font-family: 'Alkatra', cursive;
+    font-size: 2em;
+    margin-bottom: -5px;
+}
+
+section > img {
+    max-width: 300px;
+    float: left;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+hr {
+    padding: 5px;
+    margin-bottom: 20px;
 }
