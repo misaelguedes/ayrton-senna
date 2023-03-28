@@ -9,10 +9,15 @@ body {
     margin: 0;
 }
 
+body.historia {
+    background-image: url('../imagens/senna-formula1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 nav {
-    background-color: red;
+    background-color: #FB3016;
     display: flex;
-    
     height: 130px;
     justify-content: center;
     align-items: center;
@@ -46,8 +51,8 @@ nav {
 }
 
 .menu > a:hover {
-    color: yellow;
-    border-bottom: 5px solid green;
+    color: #FFDC19;
+    border-bottom: 5px solid #FEE470;
     padding-bottom: 20px;
 }
 
@@ -65,22 +70,24 @@ header > img {
 }
 
 section {
-    max-width: 90%;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 10px 60px;
     display: block;
     margin: auto;
 }
 
 section > p {
+    font-weight: bold;
     text-indent: 30px;
     line-height: 25px;
     text-align: justify;
 }
 
 section > h1 {
-    background-image: linear-gradient(to right, yellow, transparent);
+    background-image: linear-gradient(to right, #FFDC19, #FEE470);
     font-family: 'Alkatra', cursive;
     font-size: 2.7em;
-    color: red;
+    color: #FB3016;
     text-align: center;
 }
 
@@ -101,4 +108,24 @@ section > img {
 hr {
     padding: 5px;
     margin-bottom: 20px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #FB3016, #2e0500);
+    height: 150px;
+    border-top: 10px solid #FFDC19;
+    text-align: center;
+}
+
+footer > a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    margin-top: 65px;
+}
+
+footer > a:hover {
+    font-size: 1.7em;
 }
