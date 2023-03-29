@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-body.historia {
+body.historia, .recordes, .condec {
     background-image: url('../imagens/senna-formula1.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -121,9 +121,37 @@ section > img.foto2 {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.719);
 }
 
+section.condecoracoes {
+    font-weight: bold;
+    line-height: 35px;
+}
+
 hr {
     padding: 5px;
     margin-bottom: 20px;
+}
+
+table {
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #FEE470;
+    font-size: 1.2em;
+}
+
+td {
+    background-color: white;
 }
 
 footer {
