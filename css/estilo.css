@@ -232,6 +232,9 @@ footer > a:hover {
     #itens > a {
         font-size: 17px;
     }
+    section {
+        padding: 5px 25px;
+    }
     section > h1 {
         font-size: 2em;
     }
