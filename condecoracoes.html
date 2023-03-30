@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/capacete.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Ayrton Senna - Condecorações</title>
 </head>
-<body class="condec">
+<body onresize="mudouTamanho()" class="condec">
     <nav>
         <div class="titulo">
             <h1>Ayrton Senna</h1>
         </div>
-        <div class="menu">
+        <div id="itens">
             <a href="index.html">Home</a>
             <a href="historia.html">História</a>
             <a href="recordes.html">Recordes</a>
             <a href="#">Condecorações</a>
         </div>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
     </nav>
     <section class="condecoracoes">
         <ul>
@@ -37,5 +39,6 @@
     <footer>
         <a href="https://github.com/misaelguedes" target="_blank">&reg; Misael Guedes</a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

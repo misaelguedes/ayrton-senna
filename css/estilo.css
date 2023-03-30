@@ -13,6 +13,7 @@ body.historia, .recordes, .condec {
     background-image: url('../imagens/senna-formula1.jpg');
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -36,24 +37,29 @@ nav {
     color: white;
 }
 
-.menu {
+#itens {
     flex: 50%;
     text-align: right;
     padding: 20px;
     margin-right: 10%;
 }
 
-.menu > a {
+#itens > a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
 }
 
-.menu > a:hover {
+#itens > a:hover {
     color: #FFDC19;
     border-bottom: 5px solid #FEE470;
     padding-bottom: 20px;
+}
+
+#burguer {
+    color: white;
+    display: none;
 }
 
 header {
@@ -172,4 +178,95 @@ footer > a {
 
 footer > a:hover {
     font-size: 1.7em;
+}
+
+@media screen and (max-width: 1139px) {
+    nav {
+        display: block;
+        height: auto;
+    }
+    .titulo {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    .titulo > h1 {
+        padding: 0;
+        margin: 0;
+    }
+    #itens {
+        display: none;
+        margin-right: 0px;
+    }
+    #itens > a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #FEE470;
+    }
+    #burguer {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+    header > img {
+        max-width: 80%;
+    }
+    section > h1 {
+        font-size: 2.4em;
+    }
+    section > h2 {
+        font-size: 1.7em;
+    }
+    table {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulo > h1 {
+        font-size: 2.7em;
+    }
+    #itens > a {
+        font-size: 17px;
+    }
+    section > h1 {
+        font-size: 2em;
+    }
+    section > h2 {
+        font-size: 1.5em;
+        margin-bottom: -10px;
+    }
+    footer {
+        height: 100px;
+    }
+    footer > a {
+        font-size: 1.2em;
+        margin-top: 35px;
+    }
+    footer > a:hover {
+        font-size: 1.4em;
+    }
+    section > img {
+        max-width: 80%;
+        float: none;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    section > img.foto2 {
+        max-width: 80%;
+        float: none;
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    table {
+        width: 100%;
+    }
+    th {
+        font-size: 1em;
+    }
 }
