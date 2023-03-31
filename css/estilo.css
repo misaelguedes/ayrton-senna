@@ -232,6 +232,9 @@ footer > a:hover {
     #itens > a {
         font-size: 17px;
     }
+    header > img {
+        max-width: 100%;
+    }
     section {
         padding: 5px 25px;
     }
