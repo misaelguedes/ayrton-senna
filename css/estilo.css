@@ -23,6 +23,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
 }
 
 .titulo {
@@ -35,6 +36,7 @@ nav {
     font-family: 'Alkatra', cursive;
     font-size: 3.5em;
     color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.61);
 }
 
 #itens {
@@ -49,6 +51,7 @@ nav {
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.555);
 }
 
 #itens > a:hover {
@@ -144,6 +147,7 @@ table {
     margin-bottom: 30px;
     border-collapse: collapse;
     text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 td, th {
@@ -165,6 +169,7 @@ footer {
     height: 150px;
     border-top: 10px solid #FFDC19;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer > a {
@@ -174,6 +179,7 @@ footer > a {
     text-decoration: none;
     display: block;
     margin-top: 65px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.685);
 }
 
 footer > a:hover {
