@@ -63,6 +63,7 @@ nav {
 #burguer {
     color: white;
     display: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.699);
 }
 
 header {
