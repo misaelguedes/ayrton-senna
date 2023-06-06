@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+@keyframes entering {
+    from {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 body {
     margin: 0;
 }
@@ -77,6 +89,7 @@ header {
 
 header > img {
     max-width: 60%;
+    animation: entering 1s ease-in-out;
 }
 
 section {
